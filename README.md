@@ -59,7 +59,7 @@ Audio files must be structured into language-specific folders relative to where 
 
 ## ⚙️ 4. Configuration
 
-Open `supervision_engine.py` in a text editor to configure device mappings and system media players prior to launching.
+Open `supervisor.py` in a text editor to configure device mappings and system media players prior to launching.
 
 ### A. Network & Device Mapping Matrix
 
@@ -107,13 +107,13 @@ Launch the script from your terminal using command-line flags to specify which l
 
 ```bash
 # Run with English alerts only
-python supervision_engine.py --en
+python supervisor.py --en
 
 # Run with dual English and Thai sequential alerts
-python supervision_engine.py --en --th
+python supervisor.py --en --th
 
 # Running with no flags defaults to English (en/)
-python supervision_engine.py
+python supervisor.py
 
 ```
 
